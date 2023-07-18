@@ -7,5 +7,6 @@ call internal\mini_git.bat
 call internal\clone_webui.bat
 call internal\python_env.bat
 
+%~dp0webui\venv\Scripts\activate.bat
 cd webui
-call webui-user.bat
+cmd /k
